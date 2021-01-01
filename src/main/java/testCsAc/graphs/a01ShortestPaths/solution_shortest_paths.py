@@ -1,30 +1,37 @@
-# a simple parser for python. use get_number() and get_word() to read
-def parser():
-    while 1:
-        data = list(input().split(' '))
-        for number in data:
-            if len(number) > 0:
-                yield(number)   
+from typing import List
 
-input_parser = parser()
 
-def get_word():
-    global input_parser
-    return next(input_parser)
+def shortest_paths(N: int, M: int, v: int, data: List[List[int]]) -> List[int]:
+    return []
 
-def get_number():
-    data = get_word()
-    try:
-        return int(data)
-    except ValueError:
-        return float(data)
 
-# numpy and scipy are available for use
-import numpy
-import scipy
+# # a simple parser for python. use get_number() and get_word() to read
+# def parser():
+#     while 1:
+#         data = list(input().split(' '))
+#         for number in data:
+#             if len(number) > 0:
+#                 yield(number)   
 
-a = get_number()
-b = get_number()
+# input_parser = parser()
 
-res = a + b
-print(res)
+# def get_word():
+#     global input_parser
+#     return next(input_parser)
+
+# def get_number():
+#     data = get_word()
+#     try:
+#         return int(data)
+#     except ValueError:
+#         return float(data)
+
+# # numpy and scipy are available for use
+# import numpy
+# import scipy
+
+# a = get_number()
+# b = get_number()
+
+# res = a + b
+# print(res)
