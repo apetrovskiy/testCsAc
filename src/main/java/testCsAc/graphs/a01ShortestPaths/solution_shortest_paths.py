@@ -5,7 +5,7 @@ def parser():
         data = list(input().split(' '))
         for number in data:
             if len(number) > 0:
-                yield(number)   
+                yield(number)
 
 input_parser = parser()
 
@@ -53,7 +53,8 @@ def shortest_paths(N: int, M: int, v: int, data: List[List[int]]) -> List[int]:
     return [get_hops_number(graph, v, x) for x in range(1, N + 1)]
 
 
-def build_adjacency_list(N: int, M: int, v: int, data: List[List[int]]) -> List[List[int]]:
+def build_adjacency_list(
+        N: int, M: int, v: int, data: List[List[int]]) -> List[List[int]]:
     adjacency_list = []
     for node_index in range(1, N + 1):
         adjacency_list.append([x[1] for x in data if x[0] == node_index])
