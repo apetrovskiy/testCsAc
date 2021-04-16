@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Apr 16 07:32:38 GMT 2021","Fri Apr 16 07:32:38 GMT 2021","0","src.test.java.testCsAc.graphs.a01ShortestPaths","test_shortest_paths","","","","test_shortest_paths[2-1-2-data1-expected_result1]",""
+"passed","Fri Apr 16 07:32:38 GMT 2021","Fri Apr 16 07:32:38 GMT 2021","0","src.test.java.testCsAc.graphs.a01ShortestPaths","test_shortest_paths","","","","test_shortest_paths[3-2-2-data2-expected_result2]",""
+"passed","Fri Apr 16 07:32:38 GMT 2021","Fri Apr 16 07:32:38 GMT 2021","0","src.test.java.testCsAc.graphs.a01ShortestPaths","test_shortest_paths","","","","test_shortest_paths[5-7-2-data0-expected_result0]",""
