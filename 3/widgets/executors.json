@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://apetrovskiy.github.io/testCsAc",
+  "buildOrder" : 3,
+  "buildName" : "GitHub Actions Run #769505768",
+  "buildUrl" : "https://github.com/apetrovskiy/testCsAc/actions/runs/769505768",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://apetrovskiy.github.io/testCsAc/3/"
+} ]
