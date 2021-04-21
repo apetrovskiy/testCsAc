@@ -1,4 +1,5 @@
-package main
+package ShortestPaths
+// package main
 
 import "fmt"
 
