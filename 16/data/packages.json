@@ -1,0 +1,48 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "src.test.java.testCsAc.graphs.a01ShortestPaths.test_shortest_paths",
+    "children" : [ {
+      "name" : "test_shortest_paths[5-7-2-data0-expected_result0]",
+      "uid" : "4d4a17a8b1ec8153",
+      "parentUid" : "8db7b43b4e5d1feb3c7b0df09f9b7928",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620661639800,
+        "stop" : 1620661639800,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "7", "5", "[[1, 2], [2, 1], [2, 2], [3, 2], [2, 5], [5, 3], [4, 5]]", "[1, 0, 2, -1, 1]", "2" ]
+    }, {
+      "name" : "test_shortest_paths[2-1-2-data1-expected_result1]",
+      "uid" : "103067a5c3c8a200",
+      "parentUid" : "8db7b43b4e5d1feb3c7b0df09f9b7928",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620661639804,
+        "stop" : 1620661639804,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "1", "2", "[[1, 2]]", "[-1, 0]", "2" ]
+    }, {
+      "name" : "test_shortest_paths[3-2-2-data2-expected_result2]",
+      "uid" : "fefdeb6ca6ddf566",
+      "parentUid" : "8db7b43b4e5d1feb3c7b0df09f9b7928",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620661639808,
+        "stop" : 1620661639808,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "2", "3", "[[1, 2], [2, 3]]", "[-1, 0, 1]", "2" ]
+    } ],
+    "uid" : "src.test.java.testCsAc.graphs.a01ShortestPaths.test_shortest_paths"
+  } ],
+  "name" : "packages"
+}
